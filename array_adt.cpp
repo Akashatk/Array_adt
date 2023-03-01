@@ -159,12 +159,6 @@ class myarray{
         for(int i=0;i<a.used_size;i++){
             arr[i+used_size]=a.ptr[i];}
     }
-    int operator + (myarray &a){
-        
-    } 
+
 
 };
-
-int main(){
-    return 0;
-}
